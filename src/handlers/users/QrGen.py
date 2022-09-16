@@ -10,7 +10,7 @@ from src.states.FSMState import UrlGiv
 
 
 async def del_png():
-    folder = 'C:/Users/Admin/Desktop/swag/QrCodeGen/src/handlers/users/qr_codes' #Deleting files from the specified folder
+    folder = 'your_path' #Deleting files from the specified folder
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
         try:
